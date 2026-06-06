@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { toPng } from "html-to-image";
 
 const QRCodeGenerator: React.FC = () => {
-  const url = "https://buddhaword.free.nf";
+  const url = "https://buddhaword.fly.dev";
   const qrCodeRef = useRef<HTMLDivElement>(null);
 
   const downloadQRCode = () => {
